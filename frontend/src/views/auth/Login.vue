@@ -66,8 +66,8 @@
         
         <div class="footer">
           <!-- 注册功能已暂时关闭 -->
-          <!-- <span>还没有账号？</span>
-          <el-link type="primary" @click="$router.push('/register')">立即注册</el-link> -->
+          <span>还没有账号？</span>
+          <el-link type="primary" @click="$router.push('/register')">立即注册</el-link> 
         </div>
       </el-card>
     </div>
