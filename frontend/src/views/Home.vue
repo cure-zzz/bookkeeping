@@ -140,7 +140,7 @@
     <!-- 备案号 -->
     <div class="icp-footer">
       <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
-        黔ICP备2026008738号-1
+        xxxxxxxx
       </a>
     </div>
   </div>
