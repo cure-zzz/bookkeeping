@@ -12,13 +12,13 @@ const routes = [
     component: () => import('../views/auth/Login.vue'),
     meta: { title: '登录', guest: true }
   },
-  // 注册功能已暂时关闭
-  // {
-  //   path: '/register',
-  //   name: 'Register',
-  //   component: () => import('../views/auth/Register.vue'),
-  //   meta: { title: '注册', guest: true }
-  // },
+
+  {
+     path: '/register',
+     name: 'Register',
+    component: () => import('../views/auth/Register.vue'),
+     meta: { title: '注册', guest: true }
+   },
   {
     path: '/',
     component: () => import('../views/layout/MainLayout.vue'),
